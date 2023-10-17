@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-# TaskAttributeDistance
-=======
+
 # Understanding Few-Shot Learning: Measuring Task Relatedness and Adaptation Difficulty via Attributes 
-This repository is the official implementation of "Understanding Few-Shot Learning: Measuring Task Relatedness and Adaptation Difficulty via Attributes".
+This repository is the official implementation of the paper "Understanding Few-Shot Learning: Measuring Task Relatedness and Adaptation Difficulty via Attributes" in Neural Information Processing Systems (NeurIPS 2023). In this project, we provide the Task Attribute Distance (TAD) metric to quantify the task relatedness and measure the adaptation difficulty of novel tasks. 
 
 ## Dependenices
 
@@ -29,8 +27,6 @@ Please download the CUB and SUN datasets, then put them under the path of `filel
 
 Here we provide a [link](https://drive.google.com/file/d/1Je-BZaCVe9fSoUUpkBhBlm8thxalRxkI/view?usp=sharing) of CUB dataset and related files.
 
->📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
-
 ## Training
 
 To train the FSL models (such as ProtoNet) on CUB dataset, run this command:
@@ -55,13 +51,12 @@ To estimate the average TAD between each novel task and training tasks, then plo
 bash scripts/test/plot_distance_acc.sh
 ```
 
-## Pre-trained Models
+## Fast start
 
-Here we provide some pretrained models for fast strat.
+Here we provide some pretrained models for fast start.
 
 - [ProtoNet (Conv4NP)](https://drive.google.com/file/d/1AxXRP0QSmH0C5Y3i8GXEHThg6otK8leH/view?usp=sharing) trained on CUB in the 5-way 1-shot setting 
 
 Download the pretrained model at file path `checkpoints/CUB/Conv4NP_protonet_0_aug_5way_1shot/`, and then run the command in `Plot task distance and accuracy` part.
 
 Our codebase is developed based on the [baseline++](https://github.com/wyharveychen/CloserLookFewShot) from the paper [A Closer Look at Few-shot Classification](https://arxiv.org/abs/1904.04232) and [COMET](https://github.com/snap-stanford/comet) from the paper [Concept Learners for Few-Shot Learning](https://arxiv.org/pdf/2007.07375.pdf).
->>>>>>> 4aa4d55... initial commit
