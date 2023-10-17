@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="huminyang@10.208.40.27:22" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="hmy@10.29.150.31:22">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="huminyang@10.208.40.27:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/huminyang/Code/TAD" local="$PROJECT_DIR$/../TAD" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="huminyang@10.29.150.31:22">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="huminyang@127.0.0.1:16006">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@106.12.19.48:8088">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

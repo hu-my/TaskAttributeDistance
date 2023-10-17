@@ -1,0 +1,6 @@
+opencv-python
+matplotlib
+scikit-learn
+tensorboard
+h5py
+tqdm
